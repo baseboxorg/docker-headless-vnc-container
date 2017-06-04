@@ -12,7 +12,7 @@ rm /public.key
 apt-get update 
 apt-get install -y ubuntu-minimal ubuntu-standard neon-desktop plasma-workspace-wayland kwin-wayland kwin-wayland-backend-x11 kwin-wayland-backend-wayland kwin 
 apt-get dist-upgrade -y 
-groupadd admin 
-useradd -G admin,video -ms /bin/bash neon 
+#groupadd admin 
+#useradd -G admin,video -ms /bin/bash neon 
 # Refresh apt cache once more now that appstream is installed \
 apt-get clean -y
